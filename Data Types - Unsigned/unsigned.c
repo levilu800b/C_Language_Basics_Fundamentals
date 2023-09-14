@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    unsigned char iAmUnsignedChar = 0; // defining a char as an int
+    // defining a char to store as an integer or a number
+    unsigned char iAmUnsignedChar = 0; 
 
     // for(int i = 0; i < 1000; i++)
     // {
@@ -9,7 +10,7 @@ int main() {
     //     iAmUnsignedChar++;
     // }
 
-    // Reassigning the char as a character
+    // Reassigning the char to store as a single character
     iAmUnsignedChar = 'A';
     printf("%c\n", iAmUnsignedChar);
 
