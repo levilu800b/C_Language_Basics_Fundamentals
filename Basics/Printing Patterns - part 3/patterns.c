@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int main () {
+int main()
+{
     const int screenResolution = 30 * 30;
     char frame[screenResolution];
     const char PIXEL_ON = '*';
@@ -10,9 +11,10 @@ int main () {
     int firstValue = 3;
     int secondValue = 4;
 
-    printFrame:
+printFrame:
 
-    for (int i = 0; i < screenResolution; i++) {
+    for (int i = 0; i < screenResolution; i++)
+    {
         if (i % firstValue == 0)
         {
             frame[i] = PIXEL_ON;
@@ -21,7 +23,7 @@ int main () {
         {
             frame[i] = PIXEL_ON;
         }
-        else 
+        else
         {
             frame[i] = PIXEL_OFF;
         }
@@ -30,8 +32,10 @@ int main () {
     firstValue++;
     secondValue++;
 
-    for (int i = 0; i < screenResolution; i++) {
-        if (i % 30 == 0) {
+    for (int i = 0; i < screenResolution; i++)
+    {
+        if (i % 30 == 0)
+        {
             printf("\n");
         }
         printf("%c ", frame[i]);
