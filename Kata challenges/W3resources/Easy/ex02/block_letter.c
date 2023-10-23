@@ -1,0 +1,51 @@
+// Write a C program to print a block F using the hash(#), 
+// where the F has a height of six characters and width of five and 
+// four characters.And also print a very large 'C'.
+
+// Expected Output :
+
+// ######
+// #
+// #
+// #####
+// #
+// #
+// #
+//     ######
+//  ##        ##
+// #
+// #
+// #
+// #
+// #
+//   ##       ##
+//     ######
+
+#include <unistd.h>
+
+    int
+    main()
+{
+    // Print a line of hashes
+    write(1, "######\n", 6);
+
+    // Print a single hash
+    write(1, "#\n", 2);
+
+    // Print a single hash
+    write(1, "#\n", 2);
+
+    // Print a line of hashes
+    write(1, "#####\n", 6);
+
+    // Print a single hash
+    write(1, "#\n", 2);
+
+    // Print a single hash
+    write(1, "#\n", 2);
+
+    // Print a single hash
+    write(1, "#\n", 2);
+
+    return (0);
+}
