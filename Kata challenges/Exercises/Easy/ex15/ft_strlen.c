@@ -12,15 +12,16 @@ int ft_strlen(char *str)
     i = 0;
     while(str[i])
     {
-        str++;
+        i++;
     }
+    return (i);
 }
 
 int main()
 {
-    int *str;
+    char *str;
 
     str = "Hello, World!";
-    printf("%d\n", ft_strlen(str[i]));
+    printf("%d\n", ft_strlen(str));
     return (0);
 }
