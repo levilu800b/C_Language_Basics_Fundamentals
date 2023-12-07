@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data Types - Unsigned"
+    "\\Fundaments",
+    "\\Fundaments\\Intermediate 001",
+    "\\Fundaments\\Intermediate 001\\C00",
+    "\\Fundaments\\Intermediate 001\\C00\\ft_print_alphabet 02",
+    "\\Open Challenge",
+    "\\Open Challenge\\Redstor Code Challenge"
   ],
-  "SelectedNode": "\\Data Types - Unsigned\\unsigned.c",
+  "SelectedNode": "\\Open Challenge\\Redstor Code Challenge\\redstor.c",
   "PreviewInSolutionExplorer": false
 }
