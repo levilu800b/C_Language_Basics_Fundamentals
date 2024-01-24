@@ -5,23 +5,18 @@ void    ft_putchar(char c)
     write(1, &c, 1);
 }
 
-// void    ft_is_negative(int n)
-// {
-//     if(n < 0)
-//     {
-//         ft_putchar('N');
-//     }
-//     else
-//     {
-//         ft_putchar('P');
-//     }
-// }
-
 void    ft_is_negative(int n)
 {
-    x = n < 0 ? 'N' : 'P'
-    ft_putchar(x);
+     if(n < 0)
+     {
+         ft_putchar('N');
+     }
+     else
+     {
+         ft_putchar('P');
+     }
 }
+
 
 int main(void)
 {
