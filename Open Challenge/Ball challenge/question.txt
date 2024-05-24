@@ -1,0 +1,15 @@
+You have 12 balls identical in size and appearance but 1 is an odd weight (could be either light or heavy).
+
+balance scales
+You have a set of balance scales which will give 3 possible readings:
+
+Left = Right,
+Left > Right, or
+Left < Right
+(i.e. Left and Right have equal weight, Left is Heavier, or Left is Lighter).
+
+You have only 3 chances to weigh the balls in any combination using the scales.
+
+Find which ball is the odd one and if it's heavier or lighter than the rest.
+
+How do you do it?
