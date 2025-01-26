@@ -1,0 +1,9 @@
+{
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega",
+    "port": "COM3",
+    "baudrate": 9600,
+    "programmer": "arduinoasispatmega32u4",
+    "output": "build",
+    "sketch": "sketches\\rfid\\rfid.ino"
+}
