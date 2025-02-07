@@ -9,5 +9,5 @@ int main() {
 
     printf("You entered number: %d\n", myFavoriteNumber);
 
-    return(0);
+    return 0;
 }
