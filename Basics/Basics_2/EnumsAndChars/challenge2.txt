@@ -1,0 +1,12 @@
+. In this challenge, you are to create a program that displays the perimeter and area of a rectangle.
+
+. The program should create 4 variables of type double
+    . one variable to store the width of the rectangle
+    . one variable to store the height of the rectangle
+    . one variable to store the perimeter of the rectangle
+    . one variable to store the area of the rectangle
+
+. The program should perform the calculation for the perimeter of a rectangle
+    . Use the + operator addition and the * operator multiplication 
+    . Perimeter is calculated by adding the height and width of the rectangle and then multiplying by two
+    . Area is calculated by multiplying the width * height of the variables
