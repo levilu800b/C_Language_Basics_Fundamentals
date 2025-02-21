@@ -1,0 +1,1 @@
+In this challenge, you are to create a C program that defines an enum type and uses that tye to display the values of some variables.
