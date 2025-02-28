@@ -3,11 +3,11 @@
 int main()
 {
     int a = 33;
-    int b = 15;
-    int result;
+    // int b = 15;
+    // int result;
 
-    result = a % b;
+    // result = a % b;
 
-    printf("c is: %d\n", result);
+    printf("c is: %d\n", ++a);
     return 0;
 }
