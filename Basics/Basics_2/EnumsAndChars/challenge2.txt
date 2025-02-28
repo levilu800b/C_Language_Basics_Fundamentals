@@ -10,3 +10,8 @@
     . Use the + operator addition and the * operator multiplication 
     . Perimeter is calculated by adding the height and width of the rectangle and then multiplying by two
     . Area is calculated by multiplying the width * height of the variables
+
+
+. The program should display the height, width, and perimeter variables in the correct format in one print statement.
+
+. The program should display the height, width, and area variables in the correct format in one print statement.
